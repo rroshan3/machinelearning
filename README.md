@@ -12,7 +12,7 @@ We analyzed family income in 1984, 1989, 1994, 2006, 2014, 2022 and family wealt
 
 ## Methodology Used
 
-We used waves spanning r yr_min–r yr_max, harmonized variable names with the provided labels file, and reshaped the data to a person-year panel that is comparable across time. We modeled income and wealth as functions of demographic and family characteristics with year fixed effects, then visualized long-run trends. The models used here were LASSO, Random Forest, Neural Network, and OLS, which we used as the baseline model. We used a permutation test to determine income differences by sex of head and neural network feature importance.
+We used waves spanning yr_min to yr_max, harmonized variable names with the provided labels file, and reshaped the data to a person-year panel that is comparable across time. We modeled income and wealth as functions of demographic and family characteristics with year fixed effects, then visualized long-run trends. The models used here were LASSO, Random Forest, Neural Network, and OLS, which we used as the baseline model. We used a permutation test to determine income differences by sex of head and neural network feature importance.
 
 
 ## Summary of Findings
